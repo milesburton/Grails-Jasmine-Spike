@@ -12,8 +12,6 @@ target(main: "Test Jasmine specifications") {
     
     println "Javascript Test Base Path ${baseUrl}"
 
-    functionalTestPhasePreparation()
-
     Date startTime = new Date()
 
     event("StatusUpdate", ["Starting Jasmine test phase"])
@@ -28,7 +26,6 @@ target(main: "Test Jasmine specifications") {
 
     boolean buildPassed = executingProcess.exitValue() == 0
 
-    functionalTestPhaseCleanUp()
 
     println "-------------------------------------------------------"
     println "Jasmine Tests Completed in ${new Date().getTime() - startTime.getTime()}ms"

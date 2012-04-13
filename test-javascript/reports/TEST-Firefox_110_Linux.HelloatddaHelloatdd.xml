@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Firefox_110_Linux.Hello tdd Hello tdd" errors="0" failures="0" tests="2" time="0.0">
-<testcase classname="Firefox_110_Linux.Hello tdd Hello tdd" name="says hello" time="0.0"/>
-<testcase classname="Firefox_110_Linux.Hello tdd Hello tdd" name="says world" time="0.0"/>
+<testsuite name="Firefox_110_Linux.Hello tdd Hello tdd" errors="0" failures="0" tests="2" time="0.0020">
+<testcase classname="Firefox_110_Linux.Hello tdd Hello tdd" name="says hello" time="0.0010"/>
+<testcase classname="Firefox_110_Linux.Hello tdd Hello tdd" name="says world" time="0.0010"/>
 </testsuite>
