@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Firefox_110_Linux.Hello tdd" errors="0" failures="2" tests="2" time="0.0010">
+<testcase classname="Firefox_110_Linux.Hello tdd" name="says hello" time="0.0010">
+<failure type="failed" message="[{&quot;message&quot;:&quot;TypeError: jasmine.getEnv().currentSpec is null in http://localhost:9876/test/lib/helpers/jquery-1.7.1.min.js (line 499)&quot;,&quot;name&quot;:&quot;TypeError&quot;,&quot;stack&quot;:&quot;\t\t\t(\&quot;Hello tdd!\&quot;)@lib/helpers/jquery-1.7.1.min.js:499\n\t\t\t()@src-test/helloTddSpec.js:4\n\t\t\t&quot;}]">			("Hello tdd!")@lib/helpers/jquery-1.7.1.min.js:499
+			()@src-test/helloTddSpec.js:4
+			
+
+</failure>
+</testcase>
+<testcase classname="Firefox_110_Linux.Hello tdd" name="says world" time="0.0">
+<failure type="failed" message="[{&quot;message&quot;:&quot;TypeError: jasmine.getEnv().currentSpec is null in http://localhost:9876/test/lib/helpers/jquery-1.7.1.min.js (line 499)&quot;,&quot;name&quot;:&quot;TypeError&quot;,&quot;stack&quot;:&quot;\t\t\t(\&quot;Hello tdd!\&quot;)@lib/helpers/jquery-1.7.1.min.js:499\n\t\t\t()@src-test/helloTddSpec.js:10\n\t\t\t&quot;}]">			("Hello tdd!")@lib/helpers/jquery-1.7.1.min.js:499
+			()@src-test/helloTddSpec.js:10
+			
+
+</failure>
+</testcase>
+</testsuite>

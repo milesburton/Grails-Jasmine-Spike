@@ -16,7 +16,7 @@ target(main: "Test Jasmine specifications") {
 
     event("StatusUpdate", ["Starting Jasmine test phase"])
 
-    def jsTestDriverCommand = "java -jar ${jstdJar} --config ${configLocation} --port ${serverPort} --browser ${browser} --reset --tests all --testOutput ${reportLocation} --raiseOnFailure true"
+    def jsTestDriverCommand = "java -jar ${jstdJar} --config ${configLocation} --port ${serverPort} --browser ${browser} --reset --tests all --testOutput ${reportLocation} --raiseOnFailure true  --runnerMode=DEBUG"
 
     println jsTestDriverCommand
 

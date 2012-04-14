@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JasmineTest.iml" filepath="$PROJECT_DIR$/JasmineTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JasmineTest-grailsPlugins.iml" filepath="$PROJECT_DIR$/JasmineTest-grailsPlugins.iml" />
     </modules>
   </component>
 </project>

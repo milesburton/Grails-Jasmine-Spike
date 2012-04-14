@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Firefox_110_Linux.carouselView" errors="0" failures="1" tests="1" time="0.104">
+<testcase classname="Firefox_110_Linux.carouselView" name="has shiftLeft and shiftRight methods" time="0.104">
+<failure type="failed" message="[{&quot;message&quot;:&quot;TypeError: jasmine.getEnv().currentSpec is null in http://localhost:9876/test/lib/helpers/jquery-1.7.1.min.js (line 499)&quot;,&quot;name&quot;:&quot;TypeError&quot;,&quot;stack&quot;:&quot;\t\t\t((function () {if (!inMotion) {inMotion = true;setLeftPosOfRunner(self.getLeftPosOfRunner() - mask.width(), \&quot;animate\&quot;);}}))@lib/helpers/jquery-1.7.1.min.js:499\n\t\t\t()@src-test/carouselViewSpec.js:19\n\t\t\t&quot;}]">			((function () {if (!inMotion) {inMotion = true;setLeftPosOfRunner(self.getLeftPosOfRunner() - mask.width(), "animate");}}))@lib/helpers/jquery-1.7.1.min.js:499
+			()@src-test/carouselViewSpec.js:19
+			
+
+</failure>
+</testcase>
+</testsuite>

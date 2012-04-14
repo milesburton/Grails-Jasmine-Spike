@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Firefox_110_Linux.Hello tdd Hello tdd" errors="0" failures="0" tests="2" time="0.0020">
-<testcase classname="Firefox_110_Linux.Hello tdd Hello tdd" name="says hello" time="0.0010"/>
-<testcase classname="Firefox_110_Linux.Hello tdd Hello tdd" name="says world" time="0.0010"/>
+<testsuite name="Firefox_110_Linux.Hello tdd Hello tdd" errors="0" failures="2" tests="2" time="0.0010">
+<testcase classname="Firefox_110_Linux.Hello tdd Hello tdd" name="says hello" time="0.0">
+<failure type="failed" message="[{&quot;message&quot;:&quot;TypeError: jasmine.getEnv().currentSpec is null in http://localhost:9876/test/lib/helpers/jquery-1.7.1.min.js (line 499)&quot;,&quot;name&quot;:&quot;TypeError&quot;,&quot;stack&quot;:&quot;\t\t\t(\&quot;Hello tdd!\&quot;)@lib/helpers/jquery-1.7.1.min.js:499\n\t\t\t()@src-test/helloTddSpec.js:5\n\t\t\t&quot;},{&quot;message&quot;:&quot;TypeError: jQuery(\&quot;#\&quot; + this.containerId).remove is not a function in http://localhost:9876/test/lib/helpers/jquery-1.7.1.min.js (line 66)&quot;,&quot;name&quot;:&quot;TypeError&quot;,&quot;stack&quot;:&quot;\t\t\t()@lib/helpers/jquery-1.7.1.min.js:66\n\t\t\t((function () {if (jasmine.Queue.LOOP_DONT_RECURSE &amp;&amp; calledSynchronously) {completedSynchronously = true;return;}if (self.blocks[self.index].abort) {self.abort = true;}self.offset = 0;self.index++;var now = (new Date).getTime();if (self.env.updateInterval &amp;&amp; now - self.env.lastUpdate &gt; self.env.updateInterval) {self.env.lastUpdate = now;self.env.setTimeout(function () {self.next_();}, 0);} else {if (jasmine.Queue.LOOP_DONT_RECURSE &amp;&amp; completedSynchronously) {goAgain = true;} else {self.next_();}}}))@lib/helpers/jquery-1.7.1.min.js:1002\n\t\t\t&quot;}]">			("Hello tdd!")@lib/helpers/jquery-1.7.1.min.js:499
+			()@src-test/helloTddSpec.js:5
+			
+
+			()@lib/helpers/jquery-1.7.1.min.js:66
+			((function () {if (jasmine.Queue.LOOP_DONT_RECURSE &amp;&amp; calledSynchronously) {completedSynchronously = true;return;}if (self.blocks[self.index].abort) {self.abort = true;}self.offset = 0;self.index++;var now = (new Date).getTime();if (self.env.updateInterval &amp;&amp; now - self.env.lastUpdate &gt; self.env.updateInterval) {self.env.lastUpdate = now;self.env.setTimeout(function () {self.next_();}, 0);} else {if (jasmine.Queue.LOOP_DONT_RECURSE &amp;&amp; completedSynchronously) {goAgain = true;} else {self.next_();}}}))@lib/helpers/jquery-1.7.1.min.js:1002
+			
+
+</failure>
+</testcase>
+<testcase classname="Firefox_110_Linux.Hello tdd Hello tdd" name="says world" time="0.0010">
+<failure type="failed" message="[{&quot;message&quot;:&quot;TypeError: jasmine.getEnv().currentSpec is null in http://localhost:9876/test/lib/helpers/jquery-1.7.1.min.js (line 499)&quot;,&quot;name&quot;:&quot;TypeError&quot;,&quot;stack&quot;:&quot;\t\t\t(\&quot;Hello tdd!\&quot;)@lib/helpers/jquery-1.7.1.min.js:499\n\t\t\t()@src-test/helloTddSpec.js:11\n\t\t\t&quot;},{&quot;message&quot;:&quot;TypeError: jQuery(\&quot;#\&quot; + this.containerId).remove is not a function in http://localhost:9876/test/lib/helpers/jquery-1.7.1.min.js (line 66)&quot;,&quot;name&quot;:&quot;TypeError&quot;,&quot;stack&quot;:&quot;\t\t\t()@lib/helpers/jquery-1.7.1.min.js:66\n\t\t\t((function () {if (jasmine.Queue.LOOP_DONT_RECURSE &amp;&amp; calledSynchronously) {completedSynchronously = true;return;}if (self.blocks[self.index].abort) {self.abort = true;}self.offset = 0;self.index++;var now = (new Date).getTime();if (self.env.updateInterval &amp;&amp; now - self.env.lastUpdate &gt; self.env.updateInterval) {self.env.lastUpdate = now;self.env.setTimeout(function () {self.next_();}, 0);} else {if (jasmine.Queue.LOOP_DONT_RECURSE &amp;&amp; completedSynchronously) {goAgain = true;} else {self.next_();}}}))@lib/helpers/jquery-1.7.1.min.js:1002\n\t\t\t&quot;}]">			("Hello tdd!")@lib/helpers/jquery-1.7.1.min.js:499
+			()@src-test/helloTddSpec.js:11
+			
+
+			()@lib/helpers/jquery-1.7.1.min.js:66
+			((function () {if (jasmine.Queue.LOOP_DONT_RECURSE &amp;&amp; calledSynchronously) {completedSynchronously = true;return;}if (self.blocks[self.index].abort) {self.abort = true;}self.offset = 0;self.index++;var now = (new Date).getTime();if (self.env.updateInterval &amp;&amp; now - self.env.lastUpdate &gt; self.env.updateInterval) {self.env.lastUpdate = now;self.env.setTimeout(function () {self.next_();}, 0);} else {if (jasmine.Queue.LOOP_DONT_RECURSE &amp;&amp; completedSynchronously) {goAgain = true;} else {self.next_();}}}))@lib/helpers/jquery-1.7.1.min.js:1002
+			
+
+</failure>
+</testcase>
 </testsuite>
